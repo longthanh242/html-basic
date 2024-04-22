@@ -12,32 +12,31 @@
         }
 
         input, textarea {
-            min-width: 270px;
+            min-width: 300px;
             padding: 5px 5px;
+            margin: 10px 0 20px 0;
         }
     </style>
 </head>
 <body>
     <form action="#">
-        <p>Form Name</p>
-        <input type="text" placeholder="Name">
+        <label for="name">Form Name</label><br>
+        <input id="name" type="text" placeholder="Name"><br>
 
-        <p>Form Description</p>
-        <div>
-            <textarea name="" id="" cols="" rows=""></textarea>
-        </div>
+        <label for="desc">Form Description</label><br>
+        <textarea name="" id="desc" cols="" rows="6"></textarea><br>
 
-        <p>Form CSS Class</p>
-        <input type="text">
+        <label for="">Form CSS Class</label><br>
+        <input type="text"><br>
 
-        <p>Submit Button Text</p>
-        <input type="text" placeholder="Gửi">
+        <label for="">Submit Button Text</label><br>
+        <input type="text" placeholder="Gửi"><br>
 
-        <p>Submit Button Processing Text</p>
-        <input type="text" placeholder="Đang gửi...">
+        <label for="">Submit Button Processing Text</label><br>
+        <input type="text" placeholder="Đang gửi..."><br>
 
-        <p>Submit Button CSS Class</p>
-        <input type="text">
+        <label for="">Submit Button CSS Class</label><br>
+        <input type="text"><br>
         
     </form>
 </body>
